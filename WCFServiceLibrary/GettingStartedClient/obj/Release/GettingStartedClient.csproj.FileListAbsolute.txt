@@ -1,0 +1,5 @@
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\GettingStartedClient\bin\Release\GettingStartedClient.exe.config
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\GettingStartedClient\bin\Release\GettingStartedClient.exe
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\GettingStartedClient\bin\Release\GettingStartedClient.pdb
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\GettingStartedClient\obj\Release\GettingStartedClient.exe
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\GettingStartedClient\obj\Release\GettingStartedClient.pdb

@@ -1,0 +1,8 @@
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\bin\Debug\WCFIISSSLHostedCal.dll.config
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\bin\Debug\WCFIISSSLHostedCal.dll
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\bin\Debug\WCFIISSSLHostedCal.pdb
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\bin\Debug\WCFServiceLibrary.dll
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\bin\Debug\WCFServiceLibrary.pdb
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\obj\Debug\WCFIISSSLHostedCal.csprojResolveAssemblyReference.cache
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\obj\Debug\WCFIISSSLHostedCal.dll
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\obj\Debug\WCFIISSSLHostedCal.pdb
