@@ -26,175 +26,307 @@ namespace GettingStartedClient
 
             if (line.ToString() == "1")
             {
-                program.SelfServiceMenu();
+                //Self Service Client
+                Task taskSelfServiceMenu = new Task(SelfServiceMenu);
+                taskSelfServiceMenu.Start();
+                taskSelfServiceMenu.Wait();
             }
             else if (line.ToString() == "2")
             {
-                program.WindowsServiceMenu();
+                //Windows Service Client
+                Task taskWindowsServiceMenu = new Task(WindowsServiceMenu);
+                taskWindowsServiceMenu.Start();
+                taskWindowsServiceMenu.Wait();
             }
             else if (line.ToString() == "3")
             {
-                program.IISServiceMenu();
+                //IIS Service Client
+                Task taskIISServiceMenu = new Task(IISServiceMenu);
+                taskIISServiceMenu.Start();
+                taskIISServiceMenu.Wait();
             }
             else if (line.ToString() == "4")
             {
-                program.IISSSLServiceMenu();
+                //IIS SSL Service Client
+                Task taskIISSSLServiceMenu = new Task(IISSSLServiceMenu);
+                taskIISSSLServiceMenu.Start();
+                taskIISSSLServiceMenu.Wait();
             }
             else
             {
-                Console.WriteLine ("To Exit");
+                Console.WriteLine("Exiting after none of the above choices was picked");
                 Console.ReadLine();
             }
-            
-
+            Console.WriteLine("Hope you have enjoyed consuming a WCF");
+            Console.ReadLine();
         }
 
-        private void SelfServiceMenu()
+        static async void SelfServiceMenu()
         {
             //Step 1: Create an instance of the WCF proxy.
             CalculatorServiceRef.CalculatorClient client = new CalculatorServiceRef.CalculatorClient();
 
             // Step 2: Call the service operations.
             // Call the Add service operation.
-            double value1 = 100.00D;
-            double value2 = 15.99D;
-            double result = client.Add(value1, value2);
-            Console.WriteLine("Add({0},{1}) = {2}", value1, value2, result);
+            double value1Add = 21.00D;
+            double value2Add = 82.99D;
+            var task = Task.Factory.StartNew(() => client.AddAsync(value1Add, value2Add));
+            var str = await task;
+            await str.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Add({0},{1}) = {2}", value1Add, value2Add, str.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Addition result");
 
             // Call the Subtract service operation.
-            value1 = 145.00D;
-            value2 = 76.54D;
-            result = client.Subtract(value1, value2);
-            Console.WriteLine("Subtract({0},{1}) = {2}", value1, value2, result);
+            double value1Subtract = 73.00D;
+            double value2Subtract = 19.54D;
+            var taskSubtract = Task.Factory.StartNew(() => client.SubtractAsync(value1Subtract, value2Subtract));
+            var strsubtract = await taskSubtract;
+            await strsubtract.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Subtract({0},{1}) = {2}", value1Subtract, value2Subtract, strsubtract.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Subtract result");
 
             // Call the Multiply service operation.
-            value1 = 9.00D;
-            value2 = 81.25D;
-            result = client.Multiply(value1, value2);
-            Console.WriteLine("Multiply({0},{1}) = {2}", value1, value2, result);
+            double value1Multiply = 93.00D;
+            double value2Multiply = 43.25D;
+            var taskMultiply = Task.Factory.StartNew(() => client.MultiplyAsync(value1Multiply, value2Multiply));
+            var strMultiply = await taskMultiply;
+            await strMultiply.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Multiply({0},{1}) = {2}", value1Multiply, value2Multiply, strMultiply.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Multiply result");
 
             // Call the Divide service operation.
-            value1 = 22.00D;
-            value2 = 7.00D;
-            result = client.Divide(value1, value2);
-            Console.WriteLine("Divide({0},{1}) = {2}", value1, value2, result);
-
-            //Step 3: Closing the client gracefully closes the connection and cleans up resources.
-            client.Close();
-
-            Console.ReadLine(); // wait for user input
+            double value1Divide = 22.00D;
+            double value2Divide = 33.00D;
+            var taskDivide = Task.Factory.StartNew(() => client.DivideAsync(value1Divide, value2Divide));
+            var strDivide = await taskDivide;
+            await strDivide.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Divide ({0},{1}) = {2}", value1Divide, value2Divide, strDivide.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Divide result");
         }
 
-        private void WindowsServiceMenu()
+        static async void WindowsServiceMenu()
         {
             WindowsServiceRef.CalculatorClient client = new WindowsServiceRef.CalculatorClient();
             // Step 2: Call the service operations.
             // Call the Add service operation.
-            double value1 = 213.00D;
-            double value2 = 65.99D;
-            double result = client.Add(value1, value2);
-            Console.WriteLine("Add({0},{1}) = {2}", value1, value2, result);
+            double value1Add = 213.00D;
+            double value2Add = 65.99D;
+            var task = Task.Factory.StartNew(() => client.AddAsync(value1Add, value2Add));
+            var str = await task;
+            await str.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Add({0},{1}) = {2}", value1Add, value2Add, str.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Addition result");
 
             // Call the Subtract service operation.
-            value1 = 256.00D;
-            value2 = 67.54D;
-            result = client.Subtract(value1, value2);
-            Console.WriteLine("Subtract({0},{1}) = {2}", value1, value2, result);
+            double value1Subtract = 256.00D;
+            double value2Subtract = 67.54D;
+            var taskSubtract = Task.Factory.StartNew(() => client.SubtractAsync(value1Subtract, value2Subtract));
+            var strsubtract = await taskSubtract;
+            await strsubtract.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Subtract({0},{1}) = {2}", value1Subtract, value2Subtract, strsubtract.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Subtract result");
 
             // Call the Multiply service operation.
-            value1 = 92.00D;
-            value2 = 452.25D;
-            result = client.Multiply(value1, value2);
-            Console.WriteLine("Multiply({0},{1}) = {2}", value1, value2, result);
+            double value1Multiply = 92.00D;
+            double value2Multiply = 452.25D;
+            var taskMultiply = Task.Factory.StartNew(() => client.MultiplyAsync(value1Multiply, value2Multiply));
+            var strMultiply = await taskMultiply;
+            await strMultiply.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Multiply({0},{1}) = {2}", value1Multiply, value2Multiply, strMultiply.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Multiply result");
 
             // Call the Divide service operation.
-            value1 = 89.00D;
-            value2 = 99.00D;
-            result = client.Divide(value1, value2);
-            Console.WriteLine("Divide({0},{1}) = {2}", value1, value2, result);
+            double value1Divide = 89.00D;
+            double value2Divide = 99.00D;
+            var taskDivide = Task.Factory.StartNew(() => client.DivideAsync(value1Divide, value2Divide));
+            var strDivide = await taskDivide;
+            await strDivide.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Divide ({0},{1}) = {2}", value1Divide, value2Divide, strDivide.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Divide result");
 
-            //Step 3: Closing the client gracefully closes the connection and cleans up resources.
-            client.Close();
-
-            Console.ReadLine(); // wait for user input
         }
 
-        private void IISServiceMenu()
+        static async void IISServiceMenu()
         {
-            IISServiceRef.ServiceIISClient client = new    IISServiceRef.ServiceIISClient();
-         
+            IISServiceRef.ServiceIISClient client = new IISServiceRef.ServiceIISClient();
+
             // Step 2: Call the service operations.
             // Call the Add service operation.
-            double value1 = 4.00D;
-            double value2 = 4.99D;
-            double result = client.Add(value1, value2);
-            Console.WriteLine("Add({0},{1}) = {2}", value1, value2, result);
+            double value1Add = 312.00D;
+            double value2Add = 74.99D;
+            var task = Task.Factory.StartNew(() => client.AddAsync(value1Add, value2Add));
+            var str = await task;
+            await str.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Add({0},{1}) = {2}", value1Add, value2Add, str.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Addition result");
 
             // Call the Subtract service operation.
-            value1 = 10.00D;
-            value2 = 6.54D;
-            result = client.Subtract(value1, value2);
-            Console.WriteLine("Subtract({0},{1}) = {2}", value1, value2, result);
+            double value1Subtract = 652.00D;
+            double value2Subtract = 76.54D;
+            var taskSubtract = Task.Factory.StartNew(() => client.SubtractAsync(value1Subtract, value2Subtract));
+            var strsubtract = await taskSubtract;
+            await strsubtract.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Subtract({0},{1}) = {2}", value1Subtract, value2Subtract, strsubtract.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Subtract result");
 
             // Call the Multiply service operation.
-            value1 = 2.00D;
-            value2 = 2.25D;
-            result = client.Multiply(value1, value2);
-            Console.WriteLine("Multiply({0},{1}) = {2}", value1, value2, result);
+            double value1Multiply = 29.00D;
+            double value2Multiply = 254.25D;
+            var taskMultiply = Task.Factory.StartNew(() => client.MultiplyAsync(value1Multiply, value2Multiply));
+            var strMultiply = await taskMultiply;
+            await strMultiply.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Multiply({0},{1}) = {2}", value1Multiply, value2Multiply, strMultiply.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Multiply result");
 
             // Call the Divide service operation.
-            value1 = 27.00D;
-            value2 = 9.00D;
-            result = client.Divide(value1, value2);
-            Console.WriteLine("Divide({0},{1}) = {2}", value1, value2, result);
+            double value1Divide = 45.00D;
+            double value2Divide = 56.00D;
+            var taskDivide = Task.Factory.StartNew(() => client.DivideAsync(value1Divide, value2Divide));
+            var strDivide = await taskDivide;
+            await strDivide.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Divide ({0},{1}) = {2}", value1Divide, value2Divide, strDivide.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Divide result");
 
-            value1 = 7.00D;
-            result = client.circleArea(value1);
-            Console.WriteLine("Area of a Circle(Radius: {0}) = {1}", value1, result);
-
-            //Step 3: Closing the client gracefully closes the connection and cleans up resources.
-            client.Close();
-
-            Console.ReadLine(); // wait for user input
+            double valueCircleArea = 7.00D;
+            var taskCircleArea = Task.Factory.StartNew(() => client.circleAreaAsync(valueCircleArea));
+            var strCircleArea = await taskCircleArea;
+            await strCircleArea.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Area of A Circle ({0}) = {1}", valueCircleArea, strCircleArea.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Circle Area result");
         }
 
-        private void IISSSLServiceMenu()
+        static async void IISSSLServiceMenu()
         {
-            
+
             IISSSLServiceRef.SSLServiceIISClient client = new IISSSLServiceRef.SSLServiceIISClient();
             // Step 2: Call the service operations.
             // Call the Add service operation.
-            Console.WriteLine(Environment.NewLine + "------------------------------");
-            Console.WriteLine("Consuming SSL WCF Service");
-            double value1 = 100.00D;
-            double value2 = 100.00D;
-            double result = client.Add(value1, value2);
-            Console.WriteLine("Add({0},{1}) = {2}", value1, value2, result);
+            //Console.WriteLine(Environment.NewLine + "------------------------------");
+            //Console.WriteLine("Consuming SSL WCF Service");
+            // Step 2: Call the service operations.
+            // Call the Add service operation.
+            double value1Add = 75.00D;
+            double value2Add = 84.99D;
+            var task = Task.Factory.StartNew(() => client.AddAsync(value1Add, value2Add));
+            var str = await task;
+            await str.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Add({0},{1}) = {2}", value1Add, value2Add, str.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Addition result");
 
             // Call the Subtract service operation.
-            value1 = 200.54D;
-            value2 = 100.54D;
-            result = client.Subtract(value1, value2);
-            Console.WriteLine("Subtract({0},{1}) = {2}", value1, value2, result);
+            double value1Subtract = 26.00D;
+            double value2Subtract = 35.54D;
+            var taskSubtract = Task.Factory.StartNew(() => client.SubtractAsync(value1Subtract, value2Subtract));
+            var strsubtract = await taskSubtract;
+            await strsubtract.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Subtract({0},{1}) = {2}", value1Subtract, value2Subtract, strsubtract.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Subtract result");
 
             // Call the Multiply service operation.
-            value1 = 10.00D;
-            value2 = 10.00D;
-            result = client.Multiply(value1, value2);
-            Console.WriteLine("Multiply({0},{1}) = {2}", value1, value2, result);
+            double value1Multiply = 95.00D;
+            double value2Multiply = 689.25D;
+            var taskMultiply = Task.Factory.StartNew(() => client.MultiplyAsync(value1Multiply, value2Multiply));
+            var strMultiply = await taskMultiply;
+            await strMultiply.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Multiply({0},{1}) = {2}", value1Multiply, value2Multiply, strMultiply.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Multiply result");
 
             // Call the Divide service operation.
-            value1 = 1000.00D;
-            value2 = 10.00D;
-            result = client.Divide(value1, value2);
-            Console.WriteLine("Divide({0},{1}) = {2}", value1, value2, result);
-            Console.WriteLine(Environment.NewLine+"End of SSL WCF Service");
-            Console.WriteLine("------------------------------");
+            double value1Divide = 59.00D;
+            double value2Divide = 49.00D;
+            var taskDivide = Task.Factory.StartNew(() => client.DivideAsync(value1Divide, value2Divide));
+            var strDivide = await taskDivide;
+            await strDivide.ContinueWith(e =>
+            {
+                if (e.IsCompleted)
+                {
+                    Console.WriteLine("Divide ({0},{1}) = {2}", value1Divide, value2Divide, strDivide.Result);
+                }
+            });
+            Console.WriteLine("Waiting for the Divide result");
+            //Console.WriteLine(Environment.NewLine+"End of SSL WCF Service");
+            //Console.WriteLine("------------------------------");
 
-            //Step 3: Closing the client gracefully closes the connection and cleans up resources.
-            client.Close();
-
-            Console.ReadLine(); // wait for user input
         }
     }
 }

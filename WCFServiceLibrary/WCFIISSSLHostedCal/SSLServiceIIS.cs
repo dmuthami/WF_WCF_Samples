@@ -4,6 +4,8 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace WCFIISSSLHostedCal
 {
@@ -11,24 +13,44 @@ namespace WCFIISSSLHostedCal
     public class SSLServiceIIS : ISSLServiceIIS
     {
 
-        double WCFServiceLibrary.ICalculator.Add(double n1, double n2)
+         async Task<double> WCFServiceLibrary.ICalculator.AddAsync(double n1, double n2)
         {
-            return n1 + n2;
+            var task = Task.Factory.StartNew(() =>
+            {
+                Thread.Sleep(10000);//Ten Seconds
+                return (n1 + n2);
+            });
+            return await task.ConfigureAwait(false);
         }
 
-        double WCFServiceLibrary.ICalculator.Subtract(double n1, double n2)
+         async Task<double> WCFServiceLibrary.ICalculator.SubtractAsync(double n1, double n2)
         {
-            return n1 - n2;
+            var task = Task.Factory.StartNew(() =>
+            {
+                Thread.Sleep(12500);//Ten Seconds
+                return (n1 - n2);
+            });
+            return await task.ConfigureAwait(false);
         }
 
-        double WCFServiceLibrary.ICalculator.Multiply(double n1, double n2)
+         async Task<double> WCFServiceLibrary.ICalculator.MultiplyAsync(double n1, double n2)
         {
-            return n1*n2;
+            var task = Task.Factory.StartNew(() =>
+            {
+                Thread.Sleep(15000);//Ten Seconds
+                return (n1 * n2);
+            });
+            return await task.ConfigureAwait(false);   
         }
 
-        double WCFServiceLibrary.ICalculator.Divide(double n1, double n2)
+         async Task<double> WCFServiceLibrary.ICalculator.DivideAsync(double n1, double n2)
         {
-            return n1 / n2;
+            var task = Task.Factory.StartNew(() =>
+            {
+                Thread.Sleep(20000);//Ten Seconds
+                return (n1 / n2);
+            });
+            return await task.ConfigureAwait(false);
         }
     }
 }

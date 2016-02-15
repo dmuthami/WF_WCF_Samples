@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace WCFServiceLibrary
 {
@@ -12,12 +13,12 @@ namespace WCFServiceLibrary
     public interface ICalculator
     {
         [OperationContract]
-        double Add(double n1, double n2);
+        Task<double> AddAsync(double n1, double n2);
         [OperationContract]
-        double Subtract(double n1, double n2);
+        Task<double> SubtractAsync(double n1, double n2);
         [OperationContract]
-        double Multiply(double n1, double n2);
+        Task<double> MultiplyAsync(double n1, double n2);
         [OperationContract]
-        double Divide(double n1, double n2);
+        Task<double> DivideAsync(double n1, double n2);
     }
 }

@@ -4,6 +4,6 @@ E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\b
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\bin\Debug\WindowsServiceHost.pdb
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\bin\Debug\WCFServiceLibrary.dll
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\bin\Debug\WCFServiceLibrary.pdb
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\obj\Debug\WindowsServiceHost.csprojResolveAssemblyReference.cache
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\obj\Debug\WindowsServiceHost.exe
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\obj\Debug\WindowsServiceHost.pdb
+E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\obj\Debug\WindowsServiceHost.csprojResolveAssemblyReference.cache

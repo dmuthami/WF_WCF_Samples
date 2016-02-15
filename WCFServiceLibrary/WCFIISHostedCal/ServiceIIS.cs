@@ -4,6 +4,8 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace WCFIISHostedCal
 {
@@ -11,29 +13,55 @@ namespace WCFIISHostedCal
     public class ServiceIIS  :  IServiceIIS
     {
 
-        public double Add(double n1, double n2)
+        public async Task<double> AddAsync(double n1, double n2)
         {
-            return n1 + n2;
+            var task = Task.Factory.StartNew(() =>
+            {
+                Thread.Sleep(10000);//Ten Seconds
+                return (n1 + n2);
+            });
+            return await task.ConfigureAwait(false);
         }
 
-        public double Subtract(double n1, double n2)
+        public async Task<double> SubtractAsync(double n1, double n2)
         {
-            return n1 - n2;
+            var task = Task.Factory.StartNew(() =>
+            {
+                Thread.Sleep(12500);//Ten Seconds
+                return (n1 - n2);
+            });
+            return await task.ConfigureAwait(false);
         }
 
-        public double Multiply(double n1, double n2)
+        public async Task<double> MultiplyAsync(double n1, double n2)
         {
-            return n1 * n2;
+            var task = Task.Factory.StartNew(() =>
+            {
+                Thread.Sleep(15000);//Ten Seconds
+                return (n1 * n2);
+            });
+            return await task.ConfigureAwait(false);  
         }
 
-        public double Divide(double n1, double n2)
+        public async Task<double> DivideAsync(double n1, double n2)
         {
-            return n1 / n2;
+            var task = Task.Factory.StartNew(() =>
+            {
+                Thread.Sleep(20000);//Ten Seconds
+                return (n1 / n2);
+            });
+            return await task.ConfigureAwait(false);
         }
 
-        public double circleArea(double n1)
+        public async Task<double> circleAreaAsync(double n1)
         {
-            return Math.PI * Math.Pow(n1,2);
+            var task = Task.Factory.StartNew(() =>
+            {
+                Thread.Sleep(20000);//Ten Seconds
+                return Math.PI * Math.Pow(n1, 2); 
+            });
+            return await task.ConfigureAwait(false);
+           
         }
 
     }

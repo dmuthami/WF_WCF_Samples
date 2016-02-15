@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Threading.Tasks;
 using WCFServiceLibrary;
 
 namespace WCFIISHostedCal
@@ -13,7 +14,7 @@ namespace WCFIISHostedCal
     public interface IServiceIIS : ICalculator
     {
         [OperationContract]
-        double circleArea( double n2);
+        Task<double> circleAreaAsync(double n2);
         // TODO: Add your service operations here
     }
 
