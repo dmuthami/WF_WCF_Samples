@@ -57,7 +57,6 @@ namespace GettingStartedClient
             
             Console.ReadLine();
         }
-
         static void GetAddDataCallBack(IAsyncResult result)
         {
             Console.WriteLine(clientWS.EndAddMethod(result).ToString());

@@ -8,3 +8,8 @@ E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\GettingStartedClient\bin\Debug\GettingStartedClient.pdb
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\GettingStartedClient\obj\Debug\GettingStartedClient.exe
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\GettingStartedClient\obj\Debug\GettingStartedClient.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\GettingStartedClient\bin\Debug\GettingStartedClient.exe.config
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\GettingStartedClient\bin\Debug\GettingStartedClient.exe
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\GettingStartedClient\bin\Debug\GettingStartedClient.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\GettingStartedClient\obj\Debug\GettingStartedClient.exe
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\GettingStartedClient\obj\Debug\GettingStartedClient.pdb

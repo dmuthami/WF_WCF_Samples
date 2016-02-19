@@ -6,3 +6,11 @@ E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\b
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\obj\Release\WCFIISSSLHostedCal.dll
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\obj\Release\WCFIISSSLHostedCal.pdb
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\obj\Release\WCFIISSSLHostedCal.csprojResolveAssemblyReference.cache
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Release\WCFIISSSLHostedCal.dll.config
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Release\WCFIISSSLHostedCal.dll
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Release\WCFIISSSLHostedCal.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Release\WCFServiceLibrary.dll
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Release\WCFServiceLibrary.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\obj\Release\WCFIISSSLHostedCal.csprojResolveAssemblyReference.cache
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\obj\Release\WCFIISSSLHostedCal.dll
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\obj\Release\WCFIISSSLHostedCal.pdb

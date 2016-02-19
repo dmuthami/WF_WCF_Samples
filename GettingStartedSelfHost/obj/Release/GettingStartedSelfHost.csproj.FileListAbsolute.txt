@@ -6,3 +6,11 @@ E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\GettingStartedSelfHo
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\GettingStartedSelfHost\obj\Release\GettingStartedSelfHost.csprojResolveAssemblyReference.cache
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\GettingStartedSelfHost\obj\Release\GettingStartedSelfHost.exe
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\GettingStartedSelfHost\obj\Release\GettingStartedSelfHost.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\GettingStartedSelfHost\bin\Release\GettingStartedSelfHost.exe.config
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\GettingStartedSelfHost\bin\Release\GettingStartedSelfHost.exe
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\GettingStartedSelfHost\bin\Release\GettingStartedSelfHost.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\GettingStartedSelfHost\bin\Release\WCFServiceLibrary.dll
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\GettingStartedSelfHost\bin\Release\WCFServiceLibrary.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\GettingStartedSelfHost\obj\Release\GettingStartedSelfHost.csprojResolveAssemblyReference.cache
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\GettingStartedSelfHost\obj\Release\GettingStartedSelfHost.exe
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\GettingStartedSelfHost\obj\Release\GettingStartedSelfHost.pdb

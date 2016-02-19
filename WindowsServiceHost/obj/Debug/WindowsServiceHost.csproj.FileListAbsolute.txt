@@ -16,3 +16,12 @@ E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\WindowsServiceHost\obj\Debug\WindowsServiceHost.csprojResolveAssemblyReference.cache
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\WindowsServiceHost\obj\Debug\WindowsServiceHost.exe
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\WindowsServiceHost\obj\Debug\WindowsServiceHost.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\bin\Debug\App.config
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe.config
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\bin\Debug\WindowsServiceHost.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\bin\Debug\WCFServiceLibrary.dll
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\bin\Debug\WCFServiceLibrary.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\obj\Debug\WindowsServiceHost.csprojResolveAssemblyReference.cache
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\obj\Debug\WindowsServiceHost.exe
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\obj\Debug\WindowsServiceHost.pdb

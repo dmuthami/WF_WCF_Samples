@@ -6,3 +6,11 @@ E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\b
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\obj\Debug\WCFIISSSLHostedCal.dll
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\obj\Debug\WCFIISSSLHostedCal.pdb
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFIISSSLHostedCal\obj\Debug\WCFIISSSLHostedCal.csprojResolveAssemblyReference.cache
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Debug\WCFIISSSLHostedCal.dll.config
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Debug\WCFIISSSLHostedCal.dll
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Debug\WCFIISSSLHostedCal.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Debug\WCFServiceLibrary.dll
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Debug\WCFServiceLibrary.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\obj\Debug\WCFIISSSLHostedCal.csprojResolveAssemblyReference.cache
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\obj\Debug\WCFIISSSLHostedCal.dll
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\obj\Debug\WCFIISSSLHostedCal.pdb

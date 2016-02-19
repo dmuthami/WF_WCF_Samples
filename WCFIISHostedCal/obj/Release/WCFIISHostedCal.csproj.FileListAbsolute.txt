@@ -16,3 +16,12 @@ E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\WCFIISHostedCal\obj\Release\WCFIISHostedCal.csprojResolveAssemblyReference.cache
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\WCFIISHostedCal\obj\Release\WCFIISHostedCal.dll
 E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\WCFIISHostedCal\obj\Release\WCFIISHostedCal.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISHostedCal\bin\Release\App.config
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISHostedCal\bin\Release\WCFIISHostedCal.dll.config
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISHostedCal\bin\Release\WCFIISHostedCal.dll
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISHostedCal\bin\Release\WCFIISHostedCal.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISHostedCal\bin\Release\WCFServiceLibrary.dll
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISHostedCal\bin\Release\WCFServiceLibrary.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISHostedCal\obj\Release\WCFIISHostedCal.csprojResolveAssemblyReference.cache
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISHostedCal\obj\Release\WCFIISHostedCal.dll
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISHostedCal\obj\Release\WCFIISHostedCal.pdb
