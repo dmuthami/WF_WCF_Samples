@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceLibrary", "WCFServiceLibrary\WCFServiceLibrary.csproj", "{B868EF0A-3F42-46AF-90D6-03D315791259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedSelfHost", "GettingStartedSelfHost\GettingStartedSelfHost.csproj", "{FE6943B5-39BB-4D14-93A7-7A1079464819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedClient", "GettingStartedClient\GettingStartedClient.csproj", "{722FF74D-788D-4494-899B-D90E0FC8E216}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C21A3013-ACD0-4917-8657-568C9B406F19} = {C21A3013-ACD0-4917-8657-568C9B406F19}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceHost", "WindowsServiceHost\WindowsServiceHost.csproj", "{69B2FE60-D42E-4681-BD95-A9DCFDD84EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFIISHostedCal", "WCFIISHostedCal\WCFIISHostedCal.csproj", "{C21A3013-ACD0-4917-8657-568C9B406F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFIISSSLHostedCal", "WCFIISSSLHostedCal\WCFIISSSLHostedCal.csproj", "{125A9CF1-80C7-497E-B397-BA50D319D0B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B868EF0A-3F42-46AF-90D6-03D315791259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B868EF0A-3F42-46AF-90D6-03D315791259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B868EF0A-3F42-46AF-90D6-03D315791259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B868EF0A-3F42-46AF-90D6-03D315791259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6943B5-39BB-4D14-93A7-7A1079464819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6943B5-39BB-4D14-93A7-7A1079464819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6943B5-39BB-4D14-93A7-7A1079464819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6943B5-39BB-4D14-93A7-7A1079464819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722FF74D-788D-4494-899B-D90E0FC8E216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722FF74D-788D-4494-899B-D90E0FC8E216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722FF74D-788D-4494-899B-D90E0FC8E216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722FF74D-788D-4494-899B-D90E0FC8E216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B2FE60-D42E-4681-BD95-A9DCFDD84EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B2FE60-D42E-4681-BD95-A9DCFDD84EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B2FE60-D42E-4681-BD95-A9DCFDD84EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B2FE60-D42E-4681-BD95-A9DCFDD84EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C21A3013-ACD0-4917-8657-568C9B406F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21A3013-ACD0-4917-8657-568C9B406F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C21A3013-ACD0-4917-8657-568C9B406F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21A3013-ACD0-4917-8657-568C9B406F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{125A9CF1-80C7-497E-B397-BA50D319D0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125A9CF1-80C7-497E-B397-BA50D319D0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125A9CF1-80C7-497E-B397-BA50D319D0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125A9CF1-80C7-497E-B397-BA50D319D0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
