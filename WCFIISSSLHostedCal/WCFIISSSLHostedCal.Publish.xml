@@ -1,0 +1,22 @@
+<publishData>
+  <publishTarget publishUrl="https://localhost:553">
+    <file relUrl="bin/WCFServiceLibrary.dll" publishTime="02/08/2016 12:11:27" />
+    <file relUrl="Web.config" publishTime="02/08/2016 12:10:54" />
+    <file relUrl="bin/WCFIISSSLHostedCal.dll" publishTime="02/08/2016 12:11:29" />
+    <file relUrl="bin/WCFIISSSLHostedCal.dll.config" publishTime="02/08/2016 12:10:54" />
+    <file relUrl="SSLServiceHost.svc" publishTime="02/08/2016 09:59:13" />
+    <file relUrl="bin/WCFIISSSLHostedCal.pdb" publishTime="02/08/2016 12:11:29" />
+    <file relUrl="bin/WCFServiceLibrary.pdb" publishTime="02/08/2016 12:11:27" />
+    <file relUrl="WCFIISSSLHostedCal.SSLServiceIIS.svc" publishTime="02/08/2016 12:13:36" />
+  </publishTarget>
+  <publishTarget publishUrl="http://localhost:8002">
+    <file relUrl="bin/WCFServiceLibrary.dll" publishTime="02/08/2016 10:10:51" />
+    <file relUrl="Web.config" publishTime="02/08/2016 10:06:16" />
+    <file relUrl="bin/WCFIISSSLHostedCal.dll" publishTime="02/08/2016 10:10:53" />
+    <file relUrl="bin/WCFIISSSLHostedCal.dll.config" publishTime="02/08/2016 10:06:16" />
+    <file relUrl="SSLServiceHost.svc" publishTime="02/08/2016 09:59:13" />
+    <file relUrl="bin/WCFIISSSLHostedCal.pdb" publishTime="02/08/2016 10:10:53" />
+    <file relUrl="bin/WCFServiceLibrary.pdb" publishTime="02/08/2016 10:10:51" />
+    <file relUrl="WCFIISSSLHostedCal.SSLServiceIIS.svc" publishTime="02/08/2016 10:12:07" />
+  </publishTarget>
+</publishData>
