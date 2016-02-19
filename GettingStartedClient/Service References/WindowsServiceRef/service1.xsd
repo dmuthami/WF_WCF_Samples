@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://Microsoft.ServiceModel.Samples" elementFormDefault="qualified" targetNamespace="http://Microsoft.ServiceModel.Samples" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="AddMethod">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="n1" type="xs:double" />
+        <xs:element minOccurs="0" name="n2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddMethodResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddMethodResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SubtractMethod">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="n1" type="xs:double" />
+        <xs:element minOccurs="0" name="n2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SubtractMethodResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SubtractMethodResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MultiplyMethod">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="n1" type="xs:double" />
+        <xs:element minOccurs="0" name="n2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MultiplyMethodResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MultiplyMethodResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DivideMethod">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="n1" type="xs:double" />
+        <xs:element minOccurs="0" name="n2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DivideMethodResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DivideMethodResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
