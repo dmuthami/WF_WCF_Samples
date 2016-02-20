@@ -1,9 +1,0 @@
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\bin\Release\App.config
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\bin\Release\WindowsServiceHost.exe.config
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\bin\Release\WindowsServiceHost.exe
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\bin\Release\WindowsServiceHost.pdb
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\bin\Release\WCFServiceLibrary.dll
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\bin\Release\WCFServiceLibrary.pdb
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\obj\Release\WindowsServiceHost.csprojResolveAssemblyReference.cache
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\obj\Release\WindowsServiceHost.exe
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WindowsServiceHost\obj\Release\WindowsServiceHost.pdb

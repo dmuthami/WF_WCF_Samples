@@ -11,6 +11,6 @@ C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Debug\WCFI
 C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Debug\WCFIISSSLHostedCal.pdb
 C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Debug\WCFServiceLibrary.dll
 C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\bin\Debug\WCFServiceLibrary.pdb
-C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\obj\Debug\WCFIISSSLHostedCal.csprojResolveAssemblyReference.cache
 C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\obj\Debug\WCFIISSSLHostedCal.dll
 C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\obj\Debug\WCFIISSSLHostedCal.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFIISSSLHostedCal\obj\Debug\WCFIISSSLHostedCal.csprojResolveAssemblyReference.cache

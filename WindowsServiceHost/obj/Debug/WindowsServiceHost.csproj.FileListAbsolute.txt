@@ -22,6 +22,6 @@ C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\bin\Debug\Wind
 C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\bin\Debug\WindowsServiceHost.pdb
 C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\bin\Debug\WCFServiceLibrary.dll
 C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\bin\Debug\WCFServiceLibrary.pdb
-C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\obj\Debug\WindowsServiceHost.csprojResolveAssemblyReference.cache
 C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\obj\Debug\WindowsServiceHost.exe
 C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\obj\Debug\WindowsServiceHost.pdb
+C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WindowsServiceHost\obj\Debug\WindowsServiceHost.csprojResolveAssemblyReference.cache

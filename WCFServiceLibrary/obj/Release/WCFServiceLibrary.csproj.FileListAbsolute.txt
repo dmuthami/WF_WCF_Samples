@@ -1,13 +1,3 @@
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFServiceLibrary\bin\Release\WCFServiceLibrary.dll.config
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFServiceLibrary\bin\Release\WCFServiceLibrary.dll
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFServiceLibrary\bin\Release\WCFServiceLibrary.pdb
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFServiceLibrary\obj\Release\WCFServiceLibrary.dll
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples\WCFServiceLibrary\WCFServiceLibrary\obj\Release\WCFServiceLibrary.pdb
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\WCFServiceLibrary\bin\Release\WCFServiceLibrary.dll.config
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\WCFServiceLibrary\bin\Release\WCFServiceLibrary.dll
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\WCFServiceLibrary\bin\Release\WCFServiceLibrary.pdb
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\WCFServiceLibrary\obj\Release\WCFServiceLibrary.dll
-E:\Programming\Dotnet\MSDN\WF_WCF_Samples-IAsyncResult_pattern\WCFServiceLibrary\WCFServiceLibrary\obj\Release\WCFServiceLibrary.pdb
 C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFServiceLibrary\bin\Release\WCFServiceLibrary.dll.config
 C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFServiceLibrary\bin\Release\WCFServiceLibrary.dll
 C:\Users\dmuthami\Desktop\Clone\WF_WCF_Samples\WCFServiceLibrary\bin\Release\WCFServiceLibrary.pdb
